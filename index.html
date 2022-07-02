@@ -6,20 +6,23 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The Basic of HTML</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
-    <h1>📘 The Code Magazine</h1>
-    <nav>
-        <a href="blog.html">Blog</a>
-        <a href="#">Challenges</a>
-        <a href="#">Flexbox</a>
-        <a href="#">CSS Grid</a>
-    </nav>
+    <aside>
+        <h1>📘 The Code Magazine</h1>
+        <nav>
+            <a href="blog.html">Blog</a>
+            <a href="#">Challenges</a>
+            <a href="#">Flexbox</a>
+            <a href="#">CSS Grid</a>
+        </nav>
+    </aside>
 </header>
 
 <article>
-    <h2>The Basic Language of the Web: HTML</h2>
+    <h2 class="article-title">The Basic Language of the Web: HTML</h2>
     <img src="imgs/laura-jones.jpg" alt="Laura" width="60">
 
     <p>
@@ -64,26 +67,27 @@
     <p>Hopefully you learned something new here. See you next time!</p>
 </article>
 
-<aside>
-    <ul>
+<aside class="related-posts">
+    <h2 class="related-title">Related Posts</h2>
+    <ul class="related">
         <li>
             <img src="imgs/related-1.jpg" alt="Related One" width="100" height="100">
             <a href="#">How to Learn Web Developement</a>
-            <p>By Jonas Schmedtmann</p>
+            <p class="related-author">By Jonas Schmedtmann</p>
         </li>
         <li>
             <img src="imgs/related-2.jpg" alt="Related One" width="100" height="100">
             <a href="#">The Unknown Power of CSS</a>
-            <p>By Jim Dillon/p>
+            <p class="related-author">By Jim Dillon</p>
         </li>
         <li>
             <img src="imgs/related-3.jpg" alt="Related One" width="100" height="100">
             <a href="#">Why JavaScript is Awesome</a>
-            <p>By Matilda</p>
+            <p class="related-author">By Matilda</p>
         </li>
     </ul>
 </aside>
-<footer>
+<footer id="copyright">
     Copyright &copy; 2027 by The Code Magazine.
 </footer>
 </body>

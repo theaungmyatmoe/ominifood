@@ -1,0 +1,70 @@
+
+body {
+    font-family: sans-serif;
+    padding: 1rem;
+}
+
+header {
+    border-top: 10px solid #7070d3;
+}
+
+
+h1,
+h2,
+h3 {
+    color: #7070d3;
+}
+
+header > aside {
+    background: #ddd;
+    padding: 1rem;
+}
+
+
+a,
+a:link {
+    color: #293dcb;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline dotted #293dcb;
+    font-size: 18px;
+}
+
+.article-title {
+    font-size: 30px;
+    margin-bottom: 2rem;
+}
+
+.related {
+    list-style: none;
+}
+
+.related-author {
+    font-weight: bold;
+}
+
+li:first-child {
+    font-weight: bold;
+}
+
+li:last-child {
+    color: #ff8800;
+    font-weight: bold;
+}
+
+li:nth-of-type(2) {
+    color: red;
+    font-weight: bold;
+}
+
+.related-posts {
+    background: #ddd;
+    padding: 20px ;
+}
+.related-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
