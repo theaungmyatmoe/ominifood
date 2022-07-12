@@ -13,11 +13,6 @@ body {
     position: relative;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
 .main-header {
     background-color: #f7f7f7;
     /* padding: 20px;
@@ -305,26 +300,49 @@ nav p {
     font-style: italic;
 }
 
-.row {
-    display: flex;
-    gap: 50px;
-    align-items: flex-start;
-}
+/*.row {*/
+/*    display: flex;*/
+/*    gap: 50px;*/
+/*    align-items: flex-start;*/
+/*}*/
 
-.main-content {
-    flex: 1;
-}
+/*.main-content {*/
+/*    flex: 1;*/
+/*}*/
 
-.main-sidebar {
-    /*
-    flex grow
-    shrink - 0 means don't shrink (don't be small)
-    basis - width alternative in flex
-    */
-    flex: 0 0 300px;
-}
+/*.main-sidebar {*/
+/*    !**/
+/*    flex grow*/
+/*    shrink - 0 means don't shrink (don't be small)*/
+/*    basis - width alternative in flex*/
+/*    *!*/
+/*    flex: 0 0 300px;*/
+/*}*/
 
 .related {
     margin-left: 10px;
     margin-top: 20px;
+}
+
+.container {
+    display: grid;
+    width: 1200px;
+    margin: 0 auto;
+    grid-template-columns: auto fit-content(300px);
+    align-items: start;
+    grid-column-gap: 50px;
+}
+
+.main-header {
+    grid-column: 1 / -1;
+}
+
+aside {
+
+}
+
+footer {
+    grid-column: 1 / -1;
+    justify-self: center;
+    align-self: center;
 }

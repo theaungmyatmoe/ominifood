@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3f28de7c-f11b-40f8-8939-03030ae11efb" name="Changes" comment="learn: Complete the HTML section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/css-grid.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -73,7 +74,7 @@
       <workItem from="1656701998372" duration="592000" />
       <workItem from="1656702634692" duration="4147000" />
       <workItem from="1656780211323" duration="5912000" />
-      <workItem from="1657638788447" duration="6792000" />
+      <workItem from="1657638788447" duration="11758000" />
     </task>
     <task id="LOCAL-00001" summary="learn: Complete the HTML section">
       <created>1656632883916</created>
