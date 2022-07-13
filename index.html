@@ -1,178 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <link href="style.css" rel="stylesheet"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>The Basic Language of the Web: HTML</title>
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Lisbon Chair Shop</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header-text-box">
+          <h1>We design and build better chairs, for a better life</h1>
+          <p class="header-text">
+            In a small shop in the heart of Lisbon, we spend our days
+            relentlessly perfecting the chair. The result is a perfect blend of
+            beauty and comfort, that will have a lasting impact on your health.
+          </p>
+          <a class="btn btn--big" href="#">Shop chairs</a>
+        </div>
+        <img src="hero.jpg" alt="Photo" />
+      </header>
 
-<body>
-<!--
-<h1>The Basic Language of the Web: HTML</h1>
-<h2>The Basic Language of the Web: HTML</h2>
-<h3>The Basic Language of the Web: HTML</h3>
-<h4>The Basic Language of the Web: HTML</h4>
-<h5>The Basic Language of the Web: HTML</h5>
-<h6>The Basic Language of the Web: HTML</h6>
--->
+      <section>
+        <h2>What makes our chairs special</h2>
+        <div class="grid-3-cols">
+          <div>
+            <p class="features-title"><strong>Science meets design</strong></p>
+            <p class="features-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus
+              similique adipisci praesentium.
+            </p>
+          </div>
 
-<div class="container">
-    <header class="main-header">
-        <h1>📘 The Code Magazine</h1>
+          <div>
+            <p class="features-title">
+              <strong>Maximal comfort</strong>
+            </p>
+            <p class="features-text">
+              Reprehenderit optio placeat quasi excepturi architecto, explicabo
+              facilis perspiciatis error maxime magnam.
+            </p>
+          </div>
 
-        <nav>
-            <!-- <strong>This is the navigation</strong> -->
-            <a href="blog.html">Blog</a>
-            <a href="#">Challenges</a>
-            <a href="./flexbox.html">Flexbox</a>
-            <a href="./css-grid.html">CSS Grid</a>
-        </nav>
-    </header>
+          <div>
+            <p class="features-title">
+              <strong>Ethical and sustainable</strong>
+            </p>
+            <p class="features-text">
+              Deleniti recusandae quidem nesciunt, eos dolorum iure, quaerat
+              omnis est laudantium voluptatem voluptas!
+            </p>
+          </div>
+        </div>
+      </section>
 
-    <!--    Only necessary for flex box -->
-    <!--    <div class="row">-->
-    <article class="main-content">
-        <header class="post-header">
-            <h2>The Basic Language of the Web: HTML</h2>
-            <div id="author-box">
+      <section class="testimonial-section">
+        <div class="grid-3-cols">
+          <img src="customers.jpg" alt="People sitting on chairs" />
+          <div class="testimonial-box">
+            <h2>"We couldn't live without these chairs anymore"</h2>
+            <blockquote class="testimonial-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+              repellat at, nesciunt quia cum minima ipsum culpa totam sapiente
+              recusandae earum debitis doloribus in quasi voluptatibus!
+            </blockquote>
+            <p class="testimonial-author">&mdash; Mary and Sarah Johnson</p>
+          </div>
+        </div>
+      </section>
 
-                <img
-                        class="post-author-img"
-                        src="img/laura-jones.jpg"
-                        alt="Headshot of Laura Jones"
-                        height="50"
-                        width="50"
-                />
-
-                <p id="author">
-                    Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
-                </p>
+      <section>
+        <h2>Our bestselling chairs</h2>
+        <div class="grid-3-cols">
+          <figure class="chair">
+            <img src="chair-1.jpg" alt="Chair" />
+            <div class="chair-box">
+              <h3>The Laid Back</h3>
+              <ul class="chair-details">
+                <li>
+                  <!-- Span is a generic INLINE text element, it doesn't have any meaning. It's like a div element, but inline -->
+                  <span>Leisure and relaxing</span>
+                </li>
+                <li>
+                  <span>Comfortable for 4h</span>
+                </li>
+                <li>
+                  <span>Vegan leather</span>
+                </li>
+                <li>
+                  <span>Weighs 16 kg</span>
+                </li>
+              </ul>
+              <div class="chair-price">
+                <strong>250€</strong>
+                <a href="#" class="btn btn--small">Add to cart</a>
+              </div>
             </div>
+          </figure>
 
-            <img
-                    src="img/post-img.jpg"
-                    alt="HTML code on a screen"
-                    width="500"
-                    height="200"
-                    class="post-img"
-            />
-            <button>❤️ Like</button>
-        </header>
+          <figure class="chair">
+            <img src="chair-2.jpg" alt="Chair" />
+            <div class="chair-box">
+              <h3>The Worker Bee</h3>
+              <ul class="chair-details">
+                <li>
+                  <span>Work</span>
+                </li>
+                <li>
+                  <span>Comfortable for 8h</span>
+                </li>
+                <li>
+                  <span>Vegan leather</span>
+                </li>
+                <li>
+                  <span>Weighs 22 kg</span>
+                </li>
+              </ul>
+              <div class="chair-price">
+                <strong>525€</strong>
+                <a href="#" class="btn btn--small">Add to cart</a>
+              </div>
+            </div>
+          </figure>
 
-        <p>
-            All modern websites and web applications are built using three
-            <em>fundamental</em>
-            technologies: HTML, CSS and JavaScript. These are the languages of the
-            web.
-        </p>
+          <figure class="chair">
+            <img src="chair-3.jpg" alt="Chair" />
+            <div class="chair-box">
+              <h3>The Chair 4/2</h3>
+              <ul class="chair-details">
+                <li>
+                  <span>Leisure and relaxing</span>
+                </li>
+                <li>
+                  <span>Comfortable all day!</span>
+                </li>
+                <li>
+                  <span>Organic cotton</span>
+                </li>
+                <li>
+                  <span>Weighs 80 kg</span>
+                </li>
+              </ul>
+              <div class="chair-price">
+                <strong>1450€</strong>
+                <a href="#" class="btn btn--small">Add to cart</a>
+              </div>
+            </div>
+          </figure>
+        </div>
+      </section>
 
-        <p>
-            In this post, let's focus on HTML. We will learn what HTML is all
-            about, and why you too should learn it.
-        </p>
-
-        <h3>What is HTML?</h3>
-        <p>
-            HTML stands for <strong>H</strong>yper<strong>T</strong>ext
-            <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup
-            language that web developers use to structure and describe the content
-            of a webpage (not a programming language).
-        </p>
-        <p>
-            HTML consists of elements that describe different types of content:
-            paragraphs, links, headings, images, video, etc. Web browsers
-            understand HTML and render HTML code as websites.
-        </p>
-        <p>In HTML, each element is made up of 3 parts:</p>
-
-        <ol>
-            <li class="first-li">The opening tag</li>
-            <li>The closing tag</li>
-            <li>The actual element</li>
-        </ol>
-
-        <p>
-            You can learn more at
-            <a
-                    href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-                    target="_blank"
-            >MDN Web Docs</a
-            >.
-        </p>
-
-        <h3>Why should you learn HTML?</h3>
-
-        <p>
-            There are countless reasons for learning the fundamental language of
-            the web. Here are 5 of them:
-        </p>
-
-        <ul>
-            <li class="first-li">
-                To be able to use the fundamental web dev language
-            </li>
-            <li>
-                To hand-craft beautiful websites instead of relying on tools like
-                Worpress or Wix
-            </li>
-            <li>To build web applications</li>
-            <li>To impress friends</li>
-            <li>To have fun 😃</li>
-        </ul>
-
-        <p>Hopefully you learned something new here. See you next time!</p>
-    </article>
-
-    <aside class="main-sidebar">
-        <h4>Related posts</h4>
-
-        <ul class="related">
-            <li class="related-post">
-                <img
-                        src="img/related-1.jpg"
-                        alt="Person programming"
-                        width="75"
-                        height="75"
-                />
-                <div>
-                    <a href="#">How to Learn Web Development</a>
-                    <p class="related-author">By Jonas Schmedtmann</p>
-                </div>
-            </li>
-            <li class="related-post">
-                <img
-                        src="img/related-2.jpg"
-                        alt="Lightning"
-                        width="75"
-                        height="75"
-                />
-                <div>
-                    <a href="#">The Unknown Powers of CSS</a>
-                    <p class="related-author">By Jim Dillon</p>
-                </div>
-            </li>
-            <li class="related-post">
-                <img
-                        src="img/related-3.jpg"
-                        alt="JavaScript code on a screen"
-                        width="75"
-                        height="75"
-                />
-                <div>
-                    <a href="#">Why JavaScript is Awesome</a>
-                    <p class="related-author">By Matilda</p>
-                </div>
-            </li>
-        </ul>
-    </aside>
-    <!--    </div>-->
-
-    <footer>
-        <p id="copyright" class="copyright text">
-            Copyright &copy; 2027 by The Code Magazine.
-        </p>
-    </footer>   
-</div>
-</body>
+      <footer>
+        Copyright &copy; 2027 by Jonas Schmedtmann. Part of "Build Responsive
+        Real-World Websites with HTML and CSS" online course. Use for learning
+        purposes only.
+      </footer>
+    </div>
+  </body>
 </html>

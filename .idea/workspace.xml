@@ -5,8 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f28de7c-f11b-40f8-8939-03030ae11efb" name="Changes" comment="learn: Complete the HTML section">
+      <change afterPath="$PROJECT_DIR$/chair-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chair-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chair-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hero.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/css-grid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css-grid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flexbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/challenges.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/laura-jones.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/related-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/related-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/related-3.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -15,11 +29,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -30,17 +48,21 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2BJcXvHZjSH8GueweK5A15C3IDY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.laravel-idea.search-composer-json": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/amm834/workspace/html-css-jonas-2022",
     "list.type.of.created.stylesheet": "CSS",
@@ -49,7 +71,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -60,6 +82,16 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\amm834\workspace\html-css-jonas-2022\imgs" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.app.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -74,7 +106,9 @@
       <workItem from="1656701998372" duration="592000" />
       <workItem from="1656702634692" duration="4147000" />
       <workItem from="1656780211323" duration="5912000" />
-      <workItem from="1657638788447" duration="11758000" />
+      <workItem from="1657638788447" duration="13206000" />
+      <workItem from="1657718117603" duration="1977000" />
+      <workItem from="1657731825345" duration="1791000" />
     </task>
     <task id="LOCAL-00001" summary="learn: Complete the HTML section">
       <created>1656632883916</created>
@@ -101,6 +135,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="learn: Complete the HTML section" />
     <option name="LAST_COMMIT_MESSAGE" value="learn: Complete the HTML section" />
   </component>
