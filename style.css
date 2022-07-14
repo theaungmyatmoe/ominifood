@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat&display=swap');
+
+
 /*
 SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
@@ -19,8 +22,6 @@ Gray Color: #343a40 , lighter -> #495057
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -33,6 +34,7 @@ Gray Color: #343a40 , lighter -> #495057
 body {
     font-family: 'Inter', sans-serif;
     color: var(--gray);
+    border-bottom: 8px solid var(--main);
 }
 
 .container {
