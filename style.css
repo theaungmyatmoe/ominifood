@@ -16,6 +16,7 @@ Gray Color: #343a40 , lighter -> #495057
 
 :root {
     --main: #087f5b;
+    --main-darker:#c3fae8;
     --main-lighter: #099268;
     --gray: #343a40;
     --gray-lighter: #49505;
@@ -44,7 +45,7 @@ body {
 
 header,
 section {
-    margin-bottom: 48px;
+    margin-bottom: 80px;
 }
 
 h2 {
@@ -98,7 +99,7 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 80px;
-    margin-top: 48px;
+    margin-top: 64px;
 }
 
 .header-text-box {
@@ -106,7 +107,7 @@ header {
 }
 
 h1 {
-    margin-bottom: 24px;
+    margin-bottom: 32px;
     font-size: 44px;
     letter-spacing: -1px;
     font-weight: 700;
@@ -130,7 +131,7 @@ img {
     stroke: var(--main);
     height: 32px;
     width: 32px;
-    margin-bottom: 16px;
+    margin-bottom: 32px;
 }
 
 .features-title {
@@ -167,6 +168,10 @@ img {
     line-height: 1.7;
 }
 
+.testimonial-author {
+    color: var(--main-darker);
+}
+
 /* CHAIRS */
 .chair {
     box-shadow: 0 20px 30px rgba(64, 64, 64, 0.11);
@@ -179,7 +184,7 @@ img {
 }
 
 .chair-box {
-    padding: 24px;
+    padding: 32px;
 }
 
 h3 {
@@ -190,14 +195,15 @@ h3 {
 
 .chair-details {
     list-style: none;
-    margin-bottom: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 .chair-details li {
     display: flex;
     align-items: center;
     gap: 12px;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .chair-details li:last-child {
