@@ -60,6 +60,10 @@ h2 {
     column-gap: 80px;
 }
 
+.btn {
+    border-radius: 100px;
+}
+
 .btn:link,
 .btn:visited {
     background: var(--main);
@@ -118,6 +122,7 @@ h1 {
 
 img {
     width: 100%;
+    border-radius: 10px;
 }
 
 /* FEATURES */
@@ -143,6 +148,7 @@ img {
     background: var(--main);
     color: white;
     padding: 32px;
+    border-radius: 20px;
 }
 
 .testimonial-box {
@@ -162,8 +168,14 @@ img {
 }
 
 /* CHAIRS */
-figure {
+.chair {
     box-shadow: 0 20px 30px rgba(64, 64, 64, 0.11);
+    border-radius: 10px;
+}
+
+.chair > img {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 .chair-box {
@@ -202,6 +214,10 @@ h3 {
     display: flex;
     justify-content: space-between;
     font-size: 20px;
+}
+
+.chair-price > .btn {
+    border-radius: 4px;
 }
 
 footer {
