@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f28de7c-f11b-40f8-8939-03030ae11efb" name="Changes" comment="feat: Implement table">
-      <change afterPath="$PROJECT_DIR$/04-pagination.html" afterDir="false" />
+    <list default="true" id="3f28de7c-f11b-40f8-8939-03030ae11efb" name="Changes" comment="feat: Implement pagination">
+      <change afterPath="$PROJECT_DIR$/05-hero.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +98,7 @@
       <workItem from="1657965962075" duration="3484000" />
       <workItem from="1657971459770" duration="5948000" />
       <workItem from="1657999476169" duration="350000" />
-      <workItem from="1658060983204" duration="7705000" />
+      <workItem from="1658060983204" duration="9749000" />
     </task>
     <task id="LOCAL-00001" summary="learn: Complete the HTML section">
       <created>1656632883916</created>
@@ -156,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658067963189</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: Implement pagination">
+      <created>1658071245063</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658071245063</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +190,8 @@
     <MESSAGE value="feat: Implement spacing" />
     <MESSAGE value="feat: Implement carousel" />
     <MESSAGE value="feat: Implement table" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Implement table" />
+    <MESSAGE value="feat: Implement pagination" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Implement pagination" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
