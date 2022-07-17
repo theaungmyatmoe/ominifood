@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            box-sizing: border-box;
+            font-family: Inter, sans-serif;
+            display: flex;
+            justify-content: center;
+        }
+
+        .pagination {
+            margin-top: 250px;
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .pagination button {
+            width: 40px;
+            height: 40px;
+            font-size: 18px;
+            color: #646060;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 0;
+            background: transparent;
+            cursor: pointer;
+        }
+
+        .pagination button:hover {
+            border-radius: 50%;
+            background: #087f5b;
+            color: #ffffff;
+            cursor: initial;
+        }
+
+        .pagination .btn {
+            border: 1px solid #087f5b;
+            flex-basis: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+
+        .btn > .btn-icon {
+            width: 40px;
+            height: 40px;
+            stroke: #087f5b;
+        }
+
+        .btn > .btn-icon:hover{
+            stroke: #ffffff;
+        }
+
+        .pagination button.more:hover {
+            background: transparent;
+            color: #646060;
+        }
+        
+        button.active {
+            background: #087f5b;
+            color: #ffffff;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+<div class="pagination">
+    <button class="btn btn--prev">
+        <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+             stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/>
+        </svg>
+    </button>
+    <button>1</button>
+    <button>2</button>
+    <button class="active">3</button>
+    <button>4</button>
+    <button>5</button>
+    <button>6</button>
+    <button class="more">...</button>
+    <button>23</button>
+    <button class="btn btn--next">
+        <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+             stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/>
+        </svg>
+    </button>
+</div>
+</body>
+</html>
