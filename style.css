@@ -1,0 +1,42 @@
+/*
+
+Design System
+01 - Typography
+
+    Font Size (px)
+    2 4 6 8 10 12 14 16 20 24 30 36 44 52
+
+   Default Line Height - 1
+
+02 - Color
+    Primary/Main - #e67e22
+    Tints
+    Shades
+    Accent Colors
+
+    Grays
+    #555
+
+03 - Image and Illustrations
+04 - Icons
+05 - Shadow
+06 - Border Radius
+
+07 - White Spaces (px)
+    10 12 14 16 32 48 64 80 96 112 128
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #555;
+    line-height: 1;
+}
+
+
