@@ -27,16 +27,31 @@ Design System
 
 */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 
+    base font size = 10px / 16px = 0.625 = 62.5%
+    */
+  font-size: 62.5%;
 }
 
 body {
-    font-family: sans-serif;
-    font-weight: 400;
-    color: #555;
-    line-height: 1;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #555;
+  line-height: 1;
 }
 
-
+.test {
+  /* width: 1000px; */
+  max-width: 1000px;
+  background: red;
+  color: white;
+  font-size: 4rem;
+  margin-top: 4rem;
+  padding: 1rem;
+}
