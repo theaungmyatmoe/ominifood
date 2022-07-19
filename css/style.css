@@ -221,3 +221,115 @@
 .step-img-box > img {
     width: 35%;
 }
+
+/*******************************/
+/* Meals */
+/*******************************/
+
+.meal {
+    background: #ffffff;
+    border-radius: 9px;
+    overflow: hidden;
+    box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.1);
+    width: 32rem;
+    transition: all 0.5s;
+}
+
+.meal:hover {
+    transform: translateY(-1.6rem);
+}
+
+.meal > img {
+    width: 100%;
+}
+
+.meal-header {
+    padding: 3.2rem 3.2rem 2.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.tags {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.tag {
+    font-weight: 700;
+    border-radius: 9px;
+    font-size: 1.2rem;
+    padding: .4rem .8rem;
+    color: #333333;
+    text-transform: uppercase;
+    letter-spacing: 0.5;
+}
+
+.tag--vegetarian {
+    background: #51cf66;
+}
+
+.tag--vegan {
+    background: #94d82d;
+}
+
+.tag--paleo {
+    background: #ffd43b;
+}
+
+.meal-heading {
+    font-size: 2.4rem;
+    letter-spacing: .8px;
+    font-weight: 600;
+    color: #404040;
+}
+
+.meal-attributes {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    padding: 1.6rem 3.2rem 4.8rem;
+    list-style: none;
+}
+
+.meal-icon {
+    color: #cf711f;
+    font-size: 2.4rem;
+    margin-right: 1.6rem;
+}
+
+.meal-attribute strong {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.meal-attribute {
+    font-size: 1.6rem;
+}
+
+.diet-plan {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.diet-heading {
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.diets {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.diet {
+    font-size: 1.8rem;
+    line-height: 1.6;
+}
+
+.list-icon {
+    color: #cf711f;
+}

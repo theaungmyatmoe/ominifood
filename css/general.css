@@ -108,8 +108,7 @@ body {
 
 .heading-primary,
 .heading-secondary,
-.step-header
-{
+.step-header {
     color: #333333;
     letter-spacing: -.5px;
 }
@@ -171,4 +170,29 @@ body {
 
 .mr-sm {
     margin-right: 1.6rem !important;
+}
+
+
+
+/**********************************/
+/* Text Align Utility */
+/**********************************/
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+strong{
+    font-size: 1.6rem;
+    font-weight: 600;
+
 }
