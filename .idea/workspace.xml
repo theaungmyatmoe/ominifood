@@ -4,43 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f28de7c-f11b-40f8-8939-03030ae11efb" name="Changes" comment="feat: implement hero section">
-      <change afterPath="$PROJECT_DIR$/img/app/app-screen-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/app/app-screen-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/app/app-screen-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/customers/ben.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/customers/customer-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/customers/customer-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/customers/customer-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/customers/customer-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/customers/customer-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/customers/customer-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/customers/dave.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/customers/hannah.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/customers/steve.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/eating.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/gallery/gallery-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/gallery/gallery-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/gallery/gallery-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/gallery/gallery-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/gallery/gallery-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/gallery/gallery-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/gallery/gallery-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/gallery/gallery-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/gallery/gallery-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/gallery/gallery-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/gallery/gallery-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/gallery/gallery-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/hero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logos/business-insider.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logos/forbes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logos/techcrunch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logos/the-new-york-times.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logos/usa-today.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/meals/meal-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/meals/meal-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/omnifood-logo.png" afterDir="false" />
+    <list default="true" id="3f28de7c-f11b-40f8-8939-03030ae11efb" name="Changes" comment="feat: implement header">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -146,7 +110,7 @@
       <workItem from="1658060983204" duration="14125000" />
       <workItem from="1658131480285" duration="249000" />
       <workItem from="1658164528053" duration="3136000" />
-      <workItem from="1658235152140" duration="8051000" />
+      <workItem from="1658235152140" duration="9687000" />
     </task>
     <task id="LOCAL-00001" summary="learn: Complete the HTML section">
       <created>1656632883916</created>
@@ -225,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658242526486</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat: implement header">
+      <created>1658245404634</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1658245404634</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +239,8 @@
     <MESSAGE value="feat: Implement first part of hero section" />
     <MESSAGE value="feat: Implement hero" />
     <MESSAGE value="feat: implement hero section" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: implement hero section" />
+    <MESSAGE value="feat: implement header" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implement header" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
