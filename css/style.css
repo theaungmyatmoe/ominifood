@@ -514,3 +514,65 @@
     margin-top: 3.2rem;
     font-size: 1.4rem;
 }
+
+
+/*****************************************/
+/* Feature */
+/*****************************************/
+
+.section-features {
+    padding: 9.6rem;
+}
+
+.feature-icon {
+    font-size: 3rem;
+    margin-bottom: 3.2rem;
+    background: #fdf2e9;
+    border-radius: 50%;
+    /* TODO: fix icon with appropriate with and height*/
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cf711f;
+}
+
+.feature-header {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+    color: #333;
+}
+
+.feature-text {
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+/*****************/
+/* Call to action*/
+/*****************/
+
+.section-cta {
+    margin-bottom: 20rem;
+}
+
+.cta-container {
+    width: 1200px;
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+    background: linear-gradient(to right bottom, #eb984e, #e67e22);
+}
+
+.cta-img {
+    height: 60rem;
+    background: linear-gradient(
+            to right bottom,
+            rgba(235, 151, 78, 0.35),
+            rgba(230, 125, 34, 0.35)
+    ),
+    url("../img/eating.jpg");
+    background-size: cover;
+}
