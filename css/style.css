@@ -332,6 +332,8 @@
 
 .list-icon {
     color: #cf711f;
+    font-size: 2.4rem;
+    margin-right: .8rem;
 }
 
 .see-recipe:link,
@@ -413,4 +415,102 @@
 
 .gallery-item img:hover {
     transform: scale(1.1);
+}
+
+
+/***************************************/
+/* Plan */
+/***************************************/
+
+.plan {
+    padding: 3.2rem 4.6rem;
+    font-size: 2rem;
+    line-height: 1.8;
+    border-radius: 11px;
+}
+
+
+.plan--complete {
+    justify-self: start;
+}
+
+.plan-header {
+    text-align: center;
+    margin-bottom: 3.2rem;
+}
+
+.plan-type {
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: #cf711f;
+}
+
+.plan-price {
+    font-size: 5rem;
+    font-weight: 600;
+    color: #333333;
+}
+
+.plan-price span {
+    font-size: 3rem;
+    margin-right: .4rem;
+    font-weight: 400;
+}
+
+.plan-per-month {
+    font-size: 1.4rem;
+    color: #999;
+    text-align: center;
+}
+
+.plan-body {
+    padding: 3.2rem;
+}
+
+.plan-body p {
+    margin-bottom: 1.6rem;
+}
+
+.plan-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.plan-footer .btn {
+    font-size: 2rem;
+    padding: .8rem 3.2rem !important;
+}
+
+.plan--started {
+    border: 2px solid #fdf2e9;
+    justify-self: end;
+}
+
+
+.plan--complete {
+    background: #fdf2e9;
+    position: relative;
+    overflow: hidden;
+}
+
+.plan--complete::after {
+    content: "Best Value";
+    text-transform: uppercase;
+    position: absolute;
+    top: 6%;
+    right: -26%;
+    background: #ffd43b;
+    color: #333;
+    font-weight: 600;
+    padding: .6rem 2rem;
+    font-size: 1.3rem;
+    width: 30rem;
+    text-align: center;
+    transform: rotateZ(44deg);
+}
+
+.plan-detail {
+    text-align: center;
+    margin-top: 3.2rem;
+    font-size: 1.4rem;
 }
