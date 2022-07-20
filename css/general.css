@@ -79,7 +79,6 @@ body {
 .row {
     display: grid;
     column-gap: 6.4rem;
-    row-gap: 9.6rem;
 }
 
 .align-items-center {
@@ -100,6 +99,10 @@ body {
 
 .col-4 {
     grid-template-columns: repeat(4, 1fr);
+}
+
+.row:not(:last-child) {
+    row-gap: 9.6rem;
 }
 
 /************************************************/
