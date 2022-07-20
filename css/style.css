@@ -554,16 +554,16 @@
 /* Call to action*/
 /*****************/
 
-.section-cta {
-    margin-bottom: 20rem;
-}
 
 .cta-container {
-    width: 1200px;
-    margin: 0 auto;
     border-radius: 15px;
     overflow: hidden;
     background: linear-gradient(to right bottom, #eb984e, #e67e22);
+    height: 50rem;
+}
+
+.cta-container.row {
+    grid-template-columns: 2fr 1fr;
 }
 
 .cta-img {
@@ -575,4 +575,71 @@
     ),
     url("../img/eating.jpg");
     background-size: cover;
+}
+
+.cta-content {
+    margin-top: 3.2rem;
+    padding: 3.2rem 4.8rem;
+}
+
+.cta-header {
+    color: #45260a;
+    font-size: 4.4rem;
+    letter-spacing: .6px;
+    margin-bottom: 3.2rem;
+}
+
+.cta-text {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #45260a;
+}
+
+.cta-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3.2rem;
+    row-gap: 1.6rem;
+    margin-top: 4.8rem;
+}
+
+.cat-form label,
+.cat-form input,
+.cat-form select {
+    display: block;
+    width: 100%;
+}
+
+.cat-form-group label {
+    color: #45260a;
+    font-size: 1.6rem;
+}
+
+.cta-form *:focus {
+    box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.4);
+}
+
+.cta-form input,.cta-form select {
+    padding: 1.6rem 3.2rem;
+    border-radius: 11px;
+    border: none;
+    font-size: 1.6rem;
+}
+
+.cta-form input::placeholder{
+    color: #333333;
+}
+
+.cta-form select {
+    padding: 1.6rem;
+}
+
+.btn--form {
+    align-self: end;
+}
+
+.cat-form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
 }

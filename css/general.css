@@ -132,7 +132,8 @@ body {
 }
 
 .btn:link,
-.btn:visited {
+.btn:visited,
+.btn {
     padding: 1.6rem 3.2rem;
     text-decoration: none;
     font-size: 2rem;
@@ -144,7 +145,7 @@ body {
 }
 
 .btn--full:link,
-.btn--full:visited {
+.btn--full:visited, .btn--full {
     background: #e67e22;
     color: #fff;
 }
@@ -173,7 +174,6 @@ body {
 }
 
 
-
 /**********************************/
 /* Text Align Utility */
 /**********************************/
@@ -191,8 +191,26 @@ body {
 }
 
 
-strong{
+strong {
     font-size: 1.6rem;
     font-weight: 600;
 
+}
+
+
+*:focus {
+    outline: 0;
+    box-shadow: 0 0 0 8px rgba(207, 113, 31, 0.52);
+}
+
+.btn--form {
+    background: #45260a;
+    color: #ffffff;
+    outline: none;
+    border: none;
+}
+
+.btn--form:hover {
+    background: #ffffff;
+    color: #333;
 }
