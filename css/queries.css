@@ -1,0 +1,14 @@
+/* 1428px */
+@media (max-width: 86rem) {
+    .hero {
+        width: 120rem;
+    }
+
+    .heading-primary {
+        font-size: 4.4rem;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
