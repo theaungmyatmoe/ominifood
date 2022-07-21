@@ -663,6 +663,11 @@
     column-gap: 3.2rem;
 }
 
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+}
+
 .footer-nav {
     list-style: none;
 }
@@ -686,10 +691,6 @@
     gap: 1.6rem;
 }
 
-.footer-logo {
-    display: flex;
-    flex-direction: column;
-}
 
 .copyright-notice {
     margin-top: auto;
