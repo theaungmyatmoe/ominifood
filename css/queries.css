@@ -21,6 +21,10 @@
         font-size: 56.75%;
     }
 
+    .hero {
+        max-width: 100rem;
+    }
+
     .main-nav-list {
         gap: 3.2rem;
     }
@@ -29,6 +33,7 @@
     .header {
         padding: 4.8rem;
     }
+
 
     .heading-secondary {
         font-size: 3.2rem;
@@ -44,5 +49,85 @@
 
     .testimonial-container {
         padding: 4.8rem;
+    }
+}
+
+/* 964px (Tablet) */
+@media (max-width: 60rem ) {
+    html {
+        /*8px*/
+        font-size: 50%;
+    }
+
+    .hero {
+
+        grid-template-columns: 1fr;
+    }
+
+    .hero-text-box {
+        text-align: center;
+    }
+
+    .delivered-meals {
+        justify-content: center;
+    }
+
+    .img-box {
+        text-align: center;
+    }
+
+    .hero-img {
+        width: 60%;
+    }
+
+    .featured-in-header {
+        margin-bottom: 3.2rem;
+    }
+
+    .logos img {
+        width: 14rem;
+    }
+
+    .step-number {
+        font-size: 6.4rem;
+    }
+
+    .step-header {
+        font-size: 2.4rem;
+    }
+
+    .section-testimonial {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonial-text {
+        font-size: 2rem;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .plan-detail {
+        margin-top: 6.4rem;
+        font-size: 1.8rem;
+    }
+
+    .cta-container {
+        grid-template-columns: 3fr 2fr;
+        height: 100%;
+    }
+
+
+    .cta-content {
+        padding: 1.6rem 3.2rem;
+    }
+
+    .cta-form {
+        grid-template-columns: 1fr;
+    }
+
+    .btn--form {
+        margin-top: 1.4rem;
     }
 }
