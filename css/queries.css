@@ -177,20 +177,23 @@
         position: absolute;
         top: 0;
         left: 0;
+        bottom: 0;
+        right: 0;
         display: flex;
         align-items: center;
         justify-content: center;
-
         opacity: 0;
         visibility: hidden;
         pointer-events: none;
         transform: translateX(100%);
         transition: all 0.5s ease-in-out;
+        z-index: 1;
     }
 
     .btn-menu {
         display: block;
     }
+
 
     .nav-open .main-nav {
         opacity: 1;
@@ -282,9 +285,10 @@
 /*560px / 16 = 35rem*/
 @media (max-width: 35rem) {
 
-    .hero{
+    .hero {
         max-width: 90%;
     }
+
     .col-2,
     .col-3,
     .card--grid,
@@ -293,7 +297,7 @@
     }
 
     .btn:link,
-    .btn:visited{
+    .btn:visited {
         font-size: 1.4rem;
         padding: 1.2rem 2.4rem;
     }

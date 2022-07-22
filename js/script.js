@@ -43,3 +43,26 @@ links.forEach(link => {
         }
     })
 })
+
+///////////////////////////////////
+// Sticky menu
+
+const hero = document.querySelector('.section-hero')
+const obv = new IntersectionObserver((entries) => {
+    const ent = entries[0]
+    console.log(ent)
+
+    if (!ent.isIntersecting) {
+        document.body.classList.add('sticky')
+    }
+
+    if(ent.isIntersecting){
+        document.body.classList.remove('sticky')
+    }
+}, {
+    // in viewport
+    root: null,
+    threshold: 0,
+    rootMargin:'-96px',
+})
+obv.observe(hero)
