@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f28de7c-f11b-40f8-8939-03030ae11efb" name="Changes" comment="feat: query for the tablet">
-      <change afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/general.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/queries.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,6 +122,7 @@
       <workItem from="1658428468201" duration="4541000" />
       <workItem from="1658475625542" duration="200000" />
       <workItem from="1658488350746" duration="2810000" />
+      <workItem from="1658497568737" duration="1876000" />
     </task>
     <task id="LOCAL-00001" summary="learn: Complete the HTML section">
       <created>1656632883916</created>

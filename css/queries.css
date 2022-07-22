@@ -196,3 +196,67 @@
         font-weight: 600;
     }
 }
+
+
+/*700/16 = 43 (Small Tablet) */
+@media (max-width: 43rem) {
+    .hero {
+        max-width: 80%;
+    }
+
+    .heading-primary {
+        font-size: 3.2rem;
+    }
+
+    .hero-description {
+        font-size: 1.8rem;
+        line-height: 1.6;
+    }
+
+    .logos img {
+        width: 10rem;
+    }
+
+    .step-description {
+        font-size: 1.6rem;
+        line-height: 1.6;
+    }
+
+    .col-3, .col-4 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 3.2rem;
+    }
+
+    .diet-plan {
+        margin-top: 4.4rem;
+        grid-column: 1/-1;
+        justify-self: center;
+    }
+
+    .cta-container.col-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .cta-img {
+        grid-row: 1;
+    }
+
+    .cta-content {
+        padding: 3.2rem;
+    }
+
+    .footer--grid {
+        grid-template-columns: repeat(6, 1fr);
+        grid-row-gap: 4.4rem;
+    }
+
+    .footer-logo, .contact-us {
+        grid-column: span 3;
+        grid-row: 2;
+    }
+
+    .account, .company, .resource {
+        grid-column: span 2;
+    }
+
+}
