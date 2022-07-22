@@ -53,6 +53,23 @@
     background: #cf711f;
 }
 
+
+/*************************/
+/* Mobile Nav */
+
+.mobile-nav-btns {
+    display: none;
+}
+
+.btn-menu {
+    opacity: 1;
+}
+
+.btn-close {
+    opacity: 0;
+}
+
+
 /************************************************/
 /* Hero Section */
 /************************************************/
