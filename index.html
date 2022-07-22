@@ -18,6 +18,11 @@
             src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
     ></script>
 
+    <script
+            defer
+            src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/queries.css">
@@ -26,22 +31,28 @@
 <body>
 
 <header class="header">
-    <a href="">
+    <a href="#">
         <img src="img/omnifood-logo.png" alt="Ominifood Logo" class="logo">
     </a>
     <nav class="main-nav">
         <ul class="main-nav-list">
-            <li><a href="#" class="main-nav-item-link">How it works</a></li>
-            <li><a href="#" class="main-nav-item-link">Meals</a></li>
-            <li><a href="#" class="main-nav-item-link">Testimonials</a></li>
-            <li><a href="#" class="main-nav-item-link">Pricing</a></li>
-            <li><a href="#" class="main-nav-item-link main-nav-item--cta">Try for free</a></li>
+            <li><a href="#how-it-works" class="main-nav-item-link">How it works</a></li>
+            <li><a href="#meals" class="main-nav-item-link">Meals</a></li>
+            <li><a href="#testimonials" class="main-nav-item-link">Testimonials</a></li>
+            <li><a href="#pricing" class="main-nav-item-link">Pricing</a></li>
+            <li><a href="#cta" class="main-nav-item-link main-nav-item--cta">Try for free</a></li>
         </ul>
     </nav>
 
     <div class="mobile-nav-btns">
-        <button class="btn-menu">Menu</button>
-        <button class="btn-close">Close</button>
+        <button class="btn-menu">
+            <ion-icon class="icon-mobile-nav md hydrated" name="menu-outline" role="img"
+                      aria-label="menu outline"></ion-icon>
+        </button>
+        <button class="btn-close">
+            <ion-icon class="icon-mobile-nav md hydrated" name="close-outline" role="img"
+                      aria-label="close outline"></ion-icon>
+        </button>
     </div>
 </header>
 <main>
@@ -54,8 +65,8 @@
                     The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your
                     personal tastes and nutritional needs.
                 </div>
-                <a href="#" class="btn btn--full mr-sm">Start eating well</a>
-                <a href="#" class="btn btn--outline">Learn more &darr;</a>
+                <a href="#cta" class="btn btn--full mr-sm">Start eating well</a>
+                <a href="#how-it-works" class="btn btn--outline">Learn more &darr;</a>
                 <div class="delivered-meals">
                     <div class="delivered-imgs">
                         <img src="img/customers/customer-1.jpg" alt="Customer Image">
@@ -88,7 +99,7 @@
         </div>
     </div>
 
-    <section class="section-how">
+    <section id="how-it-works" class="section-how">
         <!--        Heading -->
         <div class="container">
             <div class="subheading">
@@ -144,7 +155,7 @@
         </div>
     </section>
 
-    <section class="meals">
+    <section id="meals" class="meals">
         <!--        Heading -->
         <div class="container">
             <div class="subheading text-center">
@@ -199,7 +210,7 @@
                     </ul>
                 </div>
                 <!--                 Diet-->
-                <div class="diet-plan"x>
+                <div class="diet-plan" x>
                     <h3 class="diet-heading">Works with any diet:</h3>
                     <ul class="diets">
                         <li class="diet">
@@ -258,7 +269,7 @@
         </div>
     </section>
 
-    <section class="section-testimonial">
+    <section id="testimonials" class="section-testimonial">
         <div class="testimonial-container">
             <div class="subheading">
                 <span class="subheading-badge">TESTIMONIALS</span>
@@ -337,7 +348,7 @@
         </div>
     </section>
 
-    <section class="section-pricing">
+    <section id="pricing" class="section-pricing">
         <div class="container">
             <div class="subheading">
                 <span class="subheading-badge">PRICING</span>
@@ -453,7 +464,7 @@
         </div>
     </section>
 
-    <section class="container">
+    <section class="container" id="cta">
         <div class="cta-container row col-2">
             <div class="cta-content">
                 <div class="cta-text">
@@ -490,7 +501,7 @@
 <footer class="footer">
     <div class="container footer--grid">
         <div class="footer-logo">
-            <a href="">
+            <a href="#">
                 <img src="img/omnifood-logo.png" alt="Ominifood Logo" class="logo">
             </a>
             <p class="social-icons">
@@ -502,7 +513,7 @@
                           aria-label="logo twitter"></ion-icon>
             </p>
             <p class="copyright-notice">
-                Copyright © 2027 by Omnifood, Inc. All rights reserved.
+                Copyright © <span class="year">2027</span> by Omnifood, Inc. All rights reserved.
             </p>
         </div>
         <div class="contact-us">

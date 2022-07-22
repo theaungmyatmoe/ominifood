@@ -1,3 +1,12 @@
+/**
+ * Disable smooth scrolling when users have prefers-reduced-motion enabled
+ */
+@media screen and (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
+
 /* 1428px (Small Desktop) */
 @media (max-width: 86rem) {
     .hero {
@@ -49,6 +58,11 @@
 
     .testimonial-container {
         padding: 4.8rem;
+    }
+
+    .btn:link,
+    .btn:visited {
+        padding: 1.6rem 1.9rem;
     }
 }
 
@@ -136,17 +150,22 @@
         position: relative;
     }
 
+    .logo {
+        height: 2.2rem;
+    }
+
     .mobile-nav-btns {
         display: block;
         z-index: 1;
     }
 
     .nav-open .btn-menu {
-        opacity: 0;
         display: none;
     }
 
     .nav-open .btn-close {
+        margin-top: 3.2rem;
+        display: block;
         opacity: 1;
         margin-bottom: 2.8rem;
     }
@@ -257,6 +276,66 @@
 
     .account, .company, .resource {
         grid-column: span 2;
+    }
+}
+
+/*560px / 16 = 35rem*/
+@media (max-width: 35rem) {
+
+    .hero{
+        max-width: 90%;
+    }
+    .col-2,
+    .col-3,
+    .card--grid,
+    .testimonials {
+        grid-template-columns: 1fr;
+    }
+
+    .btn:link,
+    .btn:visited{
+        font-size: 1.4rem;
+        padding: 1.2rem 2.4rem;
+    }
+
+    .meal {
+        justify-self: center;
+        width: 80%;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .row {
+        grid-template-columns: 1fr;
+        gap: 4.8rem;
+    }
+
+    .section-features {
+        padding: 4.8rem;
+    }
+
+    .cta-img {
+        height: 32rem;
+    }
+
+    .step-img-box:nth-child(2) {
+        grid-row: 1;
+    }
+
+    .step-img-box:nth-child(6) {
+        grid-row: 5;
+    }
+
+    .step-img-box {
+        transform: translateY(2.4rem);
+    }
+
+    .plan--started,
+    .plan--complete {
+        justify-self: center;
+        width: 70%;
     }
 
 }

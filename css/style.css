@@ -66,9 +66,20 @@
 }
 
 .btn-close {
-    opacity: 0;
+    display: none;
 }
 
+
+.mobile-nav-btns button {
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
+.icon-mobile-nav {
+    width: 3.2rem;
+    height: 3.2rem;
+}
 
 /************************************************/
 /* Hero Section */
