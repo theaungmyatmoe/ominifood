@@ -286,7 +286,7 @@
 @media (max-width: 35rem) {
 
     .hero {
-        max-width: 90%;
+        max-width: 100%;
     }
 
     .col-2,
@@ -299,12 +299,25 @@
     .btn:link,
     .btn:visited {
         font-size: 1.4rem;
-        padding: 1.2rem 2.4rem;
+        padding: 1.4rem 2.4rem;
+    }
+
+
+    .hero-img {
+        width: 100%;
+    }
+
+    .delivered-meals {
+        flex-direction: column;
+    }
+
+    .logos img {
+        width: 6rem;
     }
 
     .meal {
         justify-self: center;
-        width: 80%;
+        width: 100%;
     }
 
     .gallery {
@@ -339,7 +352,13 @@
     .plan--started,
     .plan--complete {
         justify-self: center;
-        width: 70%;
     }
+
+    .plan--complete::after{
+        top: 5%;
+        right: -26%;
+        width: 28rem;
+    }
+
 
 }
